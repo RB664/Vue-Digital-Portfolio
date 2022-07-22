@@ -1,40 +1,5 @@
 <template>
-<nav id="navbar" class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
-            <div class="container">
-               <router-link to="/" class="nav-link text-black">RB</router-link>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse float-right" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <router-link to="/" class="nav-link text-black">Home</router-link> 
-                  </li>
-                  <li class="nav-item">
-                    <router-link to="/about" class="nav-link text-black">About</router-link>
-                  </li>
-                  <li class="nav-item">
-                    <router-link to="/education" class="nav-link text-black">Education</router-link>
-                  </li>
-                  <li class="nav-item">
-                    <router-link to="/skills" class="nav-link text-black">Skills</router-link>
-                  </li>
-                  <li class="nav-item">
-
-                    <router-link to="projects" class="nav-link text-black">Projects</router-link>
-                  </li>
-                  <li class="nav-item">
-                
-                    <router-link to="testimonials" class="nav-link text-black">Testimonials</router-link>
-                  </li>
-                  <li class="nav-item">
-
-                    <router-link to="contact" class="nav-link text-black">Contact</router-link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+<Navigation />
 
 <div class="area">
         <ul class="squares">
@@ -55,11 +20,6 @@
         </ul>
     </div>
 
-          
-  <!-- <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav> -->
   <router-view/>
   <footer class="fixed-bottom">
      Designed by Ridhaa Benjamin Copyright&copy;2022
@@ -77,7 +37,7 @@
   background-image: linear-gradient(to right top, black, #171717, #272727, #444444, #a1a1a1);
     background-repeat: no-repeat;
     width: 100vw;
-    height: 320vh;
+    height: 435vh;
     font-family: system-ui, sans-serif;
     overflow: hidden;
 }
@@ -86,14 +46,6 @@ nav {
   width: 100vw;
 }
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
 footer{
   background-color:black;
   height: 50px;
@@ -106,7 +58,7 @@ footer{
     top: 0;
     left: 0;
     width: 100vw;
-    height: 120vh;
+    height: 180vh;
     overflow: hidden;
 }
 
@@ -241,3 +193,14 @@ footer{
     }
 }
 </style>
+
+<script>
+import Navigation from '@/components/Navigation.vue'
+
+export default {
+  name: 'app',
+  components: {
+    Navigation
+  }
+}
+</script>

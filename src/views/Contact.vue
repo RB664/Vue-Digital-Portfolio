@@ -67,7 +67,4 @@
 #linkedin{
     font-size: 30px;
 }
-#buttons{
-    
-}
 </style>
