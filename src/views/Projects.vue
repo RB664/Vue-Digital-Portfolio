@@ -1,10 +1,12 @@
 <template>
 <section id="projects">
     <h1>Projects</h1>
-    <div class="projects-container">
-     <div v-for="project of projects" :key="project.id" class="card">    
-        <img :src="project.image" alt="">
-     </div>
+    <div class="container">
+        <div class="row" id="proj">
+            <div v-for="project of projects" :key="project.id" class="card">    
+               <img :src="project.image" alt="">
+            </div>
+        </div>
 </div>   
         
     </section>
@@ -13,24 +15,29 @@
 <style>
 #projects{
     padding-top: 60px;
+    padding-bottom:70px;
 }
-.projects-container{
+#proj{
+    justify-content: center;
+    gap: 50px;
+}
+/* .projects-container{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     gap: 25px;
     margin: 25px 25px 25px 25px
-}
-.card p{
+} */
+/* .card p{
     margin-bottom: 0;
-}
+} */
 .card{
     margin-top: 50px;
     height: 175px;
     width: 280px;
 }
 .card img{
-    width:  280px;
+    width:  260px;
     height: 175px;
     object-fit: cover;
 }

@@ -65,11 +65,12 @@
 
 </template>
 
-<style>
+<style scoped>
 #about {
   padding-top: 80px;
   color: white;
   text-align: start;
+  padding-bottom: 100px;
 }
 
 .about-container {
@@ -95,5 +96,8 @@ h1 {
   #Aboutme{
     font-size: xx-small;
   }
+}
+.square s{
+  height: 140h;
 }
 </style>

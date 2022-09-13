@@ -56,31 +56,31 @@ testimonials:[
   {
      "id":2,
      "name":"Ra'ees",
-     "image":"https://i.postimg.cc/sXMwsf3V/Raees-3.jpg",
+     "image":"https://i.postimg.cc/5tTZnhbN/Raees-3-2.jpg",
      "comment":"Ridhaa Benjamin is a great person with a passion for web development. He likes to make websites simple and fast. He is a quiet person but once you talk to him he is a great person to have around. Any team would be lucky to have him." 
   },
   {
      "id":3,
      "name":"Saleem",
-     "image":"https://i.postimg.cc/d019jQk8/Saleem-1.jpg",
+     "image":"https://i.postimg.cc/G3QXpWV8/Saleem-1-2.jpg",
      "comment":"Ridhaa is the type of person who always perseveres, he strives to do his best in any task he is given and is always willing to lend a hand to those in need. He would be a great addition to your company" 
   },
   {
      "id":4,
      "name":"Taucia",
-     "image":"https://i.postimg.cc/65XL1f46/taucia-png.jpg",
+     "image":"https://i.postimg.cc/RhDfHLw8/taucia2.png",
      "comment":"Ridhaa Benjamin is a quiet person that is very focused and hardworking he does his best at everything he does, he is a good web-developer." 
   },
   {
      "id":5,
      "name":"Micheala",
-     "image":"https://i.postimg.cc/pL1jxfrF/Micheala-3.jpg",
+     "image":"https://i.postimg.cc/bYsT9mvd/Micheala-3-2.jpg",
      "comment":"Ridhaa is very well-behaved , kind , smart  dedicated person. Who always does his best and has the skills of a excellent worker." 
   },
   {
      "id":6,
      "name":"Joshua",
-     "image":"https://i.postimg.cc/cCc5YbM4/Joshua-edit.jpg",
+     "image":"https://i.postimg.cc/2SpLN6G4/Joshua-edit2.jpg",
      "comment":"Ridhaa is a hard working guy that always does his work to the best of he's abilities and the work produced is no less then amazing and well worked on, he is a very soft spoken person but no doubt you would be very lucky to work with such an awesome guy." 
   }
 ] 

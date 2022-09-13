@@ -36,8 +36,8 @@
   object-fit: cover;
   background-image: linear-gradient(to right top, black, #171717, #272727, #444444, #a1a1a1);
     background-repeat: no-repeat;
-    width: 100vw;
-    height: 435vh;
+    /* width: 100vw;
+    height: 435vh; */
     font-family: system-ui, sans-serif;
     overflow: hidden;
 }
@@ -58,7 +58,7 @@ footer{
     top: 0;
     left: 0;
     width: 100vw;
-    height: 180vh;
+    height: 100vh;
     overflow: hidden;
 }
 

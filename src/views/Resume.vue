@@ -94,6 +94,7 @@
     padding-top: 100px;
     color: white;
     text-align: start;
+    padding-bottom: 150px;
 }
 #edu-container{
     padding-left: 300px;
