@@ -4,30 +4,30 @@
         
         <div class="container">
             <div id="icons" class="row">
-                <div class="col-3">
+                <div class="card">
                     <i id="html" class="fa-brands fa-html5"></i>
                 </div>
-                <div class="col-3">
+                <div class="card">
                     <i id="css" class="fa-brands fa-css3-alt"></i>
                 </div>
-                <div class="col-3">
+                <div class="card">
                     <i id="bootstrap" class="fa-brands fa-bootstrap"></i>
                 </div>
-                <div class="col-3">
+                <div class="card">
                     <i id="javascript" class="fa-brands fa-js"></i>
                 </div>
             </div>
             <div id="images" class="row py-2">
-                <div class="col-3">
+                <div class="card">
                     <i id="github" class="fa-brands fa-github"></i>
                 </div>
-                <div class="col-3">
+                <div class="card">
                     <img id="mysql" src="https://i.postimg.cc/W4M8pkwN/Database-mysql-svg.png" >
                 </div>
-                <div class="col-3">
+                <div class="card">
                     <img id="office" src="https://i.postimg.cc/QMc4B5mY/Microsoft-Office.png">
                 </div>
-                <div class="col-3">
+                <div class="card">
                     <img id="vuejs" src="https://i.postimg.cc/BbqKQbcR/58482acecef1014c0b5e4a1e.png">
                 </div>
             </div>
@@ -46,7 +46,7 @@
        
 </template>
 
-<style>
+<style scoped>
 #skills{
     /* border: 1px white solid; */
     color: white;
@@ -71,24 +71,33 @@
 #github{
     color: black;
     font-size: 100px;
+    margin-top: 15px;
 }
 #mysql{
     width: 100px;
     height: 140px;
+    margin-left:75px ;
 }
 #office{
     width: 120px;
     height: 120px;
+    margin-left: 70px;
 }
 #vuejs{
     width: 100px;
     object-fit: cover;
+    margin-left: 70px;
+    margin-top: 15px;
 }
 #icons{
     margin-top: 80px;
+    justify-content:center;
+    gap:50px;
 }
 #images{
     margin-top: 30px;
+    justify-content:center;
+    gap:50px;
 }
 #education{
     padding-top: 100px;
@@ -97,6 +106,14 @@
     padding-bottom: 150px;
 }
 #edu-container{
-    padding-left: 300px;
+    justify-content: center;
+    text-align: start;
+    align-content: center;
+}
+.card{
+    width: 280px;
+    height: 150px;
+    border: none;
+    background: transparent;
 }
 </style>

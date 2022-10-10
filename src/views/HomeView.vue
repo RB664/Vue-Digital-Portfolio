@@ -9,7 +9,7 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 #home{
   padding-top: 330px;
   text-align: center;

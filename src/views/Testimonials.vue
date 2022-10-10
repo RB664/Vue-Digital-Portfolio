@@ -1,14 +1,19 @@
 <template>
     <section id="testimonials">
         <h1>Testimonials</h1>
-        <div class="container">
-            <div class="row" id="testi">
-                <div v-for="testimonial of testimonials" :key="testimonial.id" class="card">
-                    <img id="img1" :src="testimonial.image" alt="" >
-                    <h5>{{testimonial.name}}</h5>
-                    <p>{{testimonial.comment}}</p>
-                </div>  
+        <div v-if="testimonials">
+            <div class="container">
+                <div class="row" id="testi">
+                    <div v-for="testimonial of testimonials" :key="testimonial.id" class="card">
+                        <img id="img1" :src="testimonial.image" alt="" >
+                        <h5>{{testimonial.name}}</h5>
+                        <p>{{testimonial.comment}}</p>
+                    </div>  
+                </div>
             </div>
+        </div>
+        <div v-else>
+            No Testimonials
         </div>
         
     </section>
@@ -32,6 +37,7 @@
 }
 .card{
     width: 300px;
+    height: auto;
     background-color: #a1a1a1;
 }
 </style>

@@ -1,51 +1,55 @@
 <template>
 <section id="projects">
     <h1>Projects</h1>
-    <div class="container">
-        <div class="row" id="proj">
-            <div v-for="project of projects" :key="project.id" class="card">    
-               <img :src="project.image" alt="">
+    <div v-if="projects">
+        <div class="container">
+            <div class="row" id="proj">
+                <div v-for="project of projects" :key="project.id" class="card">    
+                   <img :src="project.image" alt="">
+                   <div>
+                    <a class="btn" :href="project.live" target="_blank">Live</a>
+                    <a class="btn" :href="project.github" target="_blank">Github</a>
+                   </div>
+                </div>
             </div>
-        </div>
-</div>   
+    </div>   
+    </div>
+    <div v-else>
+        No projects
+    </div>
         
     </section>
 </template>
 
-<style>
+<style scoped>
 #projects{
-    padding-top: 60px;
+    padding-top: 100px;
     padding-bottom:70px;
+    margin-bottom: 60px;
 }
 #proj{
     justify-content: center;
-    gap: 50px;
+    gap: 67px;
+    margin-top:50px;
 }
-/* .projects-container{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    gap: 25px;
-    margin: 25px 25px 25px 25px
-} */
-/* .card p{
-    margin-bottom: 0;
-} */
 .card{
-    margin-top: 50px;
-    height: 175px;
+    height: 178px;
     width: 280px;
+    background: transparent;
+    border: none;
 }
 .card img{
-    width:  260px;
-    height: 175px;
-    object-fit: cover;
+    width: 100%;
+    height: auto;
 }
-.card a{
-    text-decoration: none;
+.btn{
+    margin: 5px;
+    color:white;
+    border-color:white ;
 }
-h1{
-    color: white;
+.btn:hover{
+    color:black;
+    border-color:black ;
 }
 </style>
 
