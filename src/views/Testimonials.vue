@@ -28,6 +28,7 @@
     padding-top: 50px;
     color: white;
     padding-bottom: 50px;
+    width: 100vw;
 }
 #img1{
     object-fit: cover;

@@ -47,6 +47,10 @@
 </template>
 
 <style scoped>
+section{
+    overflow: hidden;
+    width: 100vw;
+}
 #skills{
     /* border: 1px white solid; */
     color: white;

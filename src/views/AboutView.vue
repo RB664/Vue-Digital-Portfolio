@@ -47,10 +47,10 @@
                 <p>+27 82 572 7156</p>
                 <p>ridhaabenjamin06@gmail.com</p>
                 <p>No</p>
-                <a href="https://github.com/RB664" target="_blank">
+                <a href="https://github.com/RB664" target="_blank" class="form-floating">
                   <p>https://github.com/RB664</p>
                 </a>
-                <a href="https://www.linkedin.com/in/ridhaa-benjamin-23b876238/" target="_blank">
+                <a href="https://www.linkedin.com/in/ridhaa-benjamin-23b876238/" target="_blank" class="form-floating">
                   <p>https://www.linkedin.com/in/ridhaa-benjamin-23b876238/</p>
                 </a>
               </div>
@@ -71,6 +71,8 @@
   color: white;
   text-align: start;
   padding-bottom: 100px;
+  width: 100vw;
+  font-family:'Courier New', Courier, monospace ;
 }
 
 .about-container {
@@ -86,6 +88,11 @@
 
 h1 {
   text-align: center;
+  font-family: 'Peralta', cursive;
+}
+
+h3{
+  font-family: 'Gloria Hallelujah', cursive;
 }
 @media only screen and (max-width: 320px) {
   #Aboutme{
@@ -100,4 +107,7 @@ h1 {
 .square s{
   height: 140h;
 }
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Grand+Hotel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 </style>

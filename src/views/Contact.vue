@@ -78,6 +78,7 @@
 #contact {
   color: white;
   padding-top: 100px;
+  width: 100vw;
 }
 
 

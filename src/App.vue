@@ -39,7 +39,7 @@
     /* width: 100vw;
     height: 435vh; */
     font-family: system-ui, sans-serif;
-    overflow: hidden;
+   overflow: hidden;
 }
 nav {
   padding: 30px;

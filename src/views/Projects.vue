@@ -26,6 +26,7 @@
     padding-top: 100px;
     padding-bottom:70px;
     margin-bottom: 60px;
+    width: 100vw;
 }
 #proj{
     justify-content: center;
