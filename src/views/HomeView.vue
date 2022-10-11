@@ -18,6 +18,12 @@
   color: white;
   padding-bottom: 300px;
 }
+h2{
+  font-family: 'Gloria Hallelujah', cursive;
+}
+h1{
+  font-family: 'Peralta', cursive;
+}
 </style>
 
 <script>

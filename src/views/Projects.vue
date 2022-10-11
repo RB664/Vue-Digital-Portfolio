@@ -28,6 +28,10 @@
     margin-bottom: 60px;
     width: 100vw;
 }
+h1{
+    font-family: 'Peralta', cursive;
+    color: white;
+}
 #proj{
     justify-content: center;
     gap: 67px;
@@ -47,10 +51,11 @@
     margin: 5px;
     color:white;
     border-color:white ;
+    transition: .2s ease-in-out;
 }
 .btn:hover{
-    color:black;
     border-color:black ;
+    transform: scale(1.2);
 }
 </style>
 

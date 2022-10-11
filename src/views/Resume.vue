@@ -50,6 +50,10 @@
 section{
     overflow: hidden;
     width: 100vw;
+    font-family:'Courier New', Courier, monospace ;
+}
+h1{
+    font-family: 'Peralta', cursive;
 }
 #skills{
     /* border: 1px white solid; */
@@ -119,5 +123,8 @@ section{
     height: 150px;
     border: none;
     background: transparent;
+}
+.squares{
+    height: 120vh;
 }
 </style>

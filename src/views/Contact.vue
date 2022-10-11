@@ -5,7 +5,7 @@
       <div class="row">
         <div class="col-md-3"></div>
         <div class="col-md-6">
-          <div id="form" class="container my-5 py-5">
+          <div id="form" class="container my-3 pb-5">
             <form
               action="https://formspree.io/f/xeqnyzjk"
               method="post"
@@ -50,7 +50,7 @@
                 class="h-100 w-100 form-floating"
               >
               </textarea>
-              <button class="btn btn-primary my-3 form-floating">Submit</button>
+              <button class="btn my-3 form-floating">Submit</button>
             </form>
             <div id="buttons" class="container text-center form-floating">
               <button class="btn-lg">
@@ -77,20 +77,51 @@
 <style scoped>
 #contact {
   color: white;
-  padding-top: 100px;
+  padding-top: 80px;
   width: 100vw;
+}
+
+.btn-lg{
+  background: transparent;
+  border:none;
+  transition: .2s ease-in-out;
+}
+
+.btn-lg:hover{
+  transform: scale(1.5);
+  color: black;
 }
 
 
 #github2 {
   font-size: 30px;
+  color: white;
 }
 
 #linkedin {
   font-size: 30px;
+  color: white;
 }
 .btn-lg{
     margin-right: 5px;
     margin-left:5px;
+}
+label{
+  font-family: 'Gloria Hallelujah', cursive;
+  padding: 10px;
+}
+h1{
+  font-family: 'Peralta', cursive;
+}
+.btn{
+    margin: 5px;
+    color:white;
+    border-color:white ;
+    transition: .2s ease-in-out;
+    border: white 1px solid;
+}
+.btn:hover{
+    border-color:black ;
+    transform: scale(1.5);
 }
 </style>

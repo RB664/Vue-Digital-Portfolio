@@ -24,6 +24,9 @@
         justify-content: center;
         gap: 50px;
     }
+    p{
+        font-family:'Courier New', Courier, monospace ;
+    }
 #testimonials{
     padding-top: 50px;
     color: white;
@@ -39,7 +42,15 @@
 .card{
     width: 300px;
     height: auto;
-    background-color: #a1a1a1;
+    background:transparent;
+    border: white 1px solid;
+}
+h5{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+h1{
+    font-family: 'Peralta', cursive;
+    margin-top: 20px;
 }
 </style>
 

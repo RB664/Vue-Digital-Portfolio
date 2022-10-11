@@ -192,6 +192,10 @@ footer{
         border-radius: 50%;
     }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Grand+Hotel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 </style>
 
 <script>
