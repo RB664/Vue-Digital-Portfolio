@@ -31,7 +31,7 @@
     padding-top: 50px;
     color: white;
     padding-bottom: 50px;
-    width: 100vw;
+    width: 100%;
 }
 #img1{
     object-fit: cover;

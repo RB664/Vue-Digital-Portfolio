@@ -40,6 +40,7 @@
     height: 435vh; */
     font-family: system-ui, sans-serif;
    overflow: hidden;
+   /* height: 100vh; */
 }
 nav {
   padding: 30px;
@@ -57,7 +58,7 @@ footer{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     overflow: hidden;
 }
